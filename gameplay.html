@@ -38,10 +38,10 @@
            <a href="influence.html">Popularność i wpływ</a>
         </div>
     </div>
-    <div id="main" style="height: 400vh;" class="theme">
+    <div id="main" class="theme">
             <div id="cel">
                 <h1 style="text-decoration: underline;">Cel</h1>
-                Celem gry jest przejście 3 aktów złożonych łącznie z 50 pięter. Każdy akt zakończony jednym z trzech potężnych przeciwników zwanych bossami. <br>
+                <p>Celem gry jest przejście 3 aktów złożonych łącznie z 50 pięter. Każdy akt zakończony jednym z trzech potężnych przeciwników zwanych bossami.</p> <br>
                 <h2>Act 1</h2>
                 <div id="act1">
                     <figure>
@@ -88,7 +88,12 @@
                     </figure>
                 </div>
                 <br>
-                Jeśli gracz zbierze 3 części klucza, odblokowuje on dostęp do aktu 4 i walkę z finałowym bossem, najtrudniejszym wrogiem w grze.
+                <p>Jeśli gracz zbierze 3 klucze, odblokowuje on dostęp do aktu 4 i walkę z finałowym bossem, najtrudniejszym wrogiem w grze.</p>
+                <ul>
+                    <li>Czerwony klucz - wymaga użycia ogniska.</li>
+                    <li>Zielony klucz - wymaga pokonania silniejszej wersji elitarnego wroga.</li>
+                    <li>Niebieski klucz - wymaga wybrania go ze skrzyni zamiast reliktu.</li>
+                </ul>
                 <h2>Act 4</h2>
                 <div id="act4">
                     <figure>
@@ -99,52 +104,54 @@
             </div>
             <div id="Combat">
                 <h1 style="text-decoration: underline;">Walka</h1>
-                Walka odbywa się poprzez zagrywanie kart. W każdej turze gracz otrzymuje określoną ilość punktów energii (domyślnie 3). Nad każdym przeciwnikiem ukazana jest ich intencja, mowiąca co planują wykonać. <br>
-                Gracz oraz wrogowie mogą atakować, blokować lub nakładać pozytywne jak i negatywne efekty. <br>
-                Po każdej walce gracz otrzymuje złoto, wybór karty, czasami miksturę, a jeśli był to elitarny przeciwnik wśród nagród pojawia się relikt. <br>
-                Po walce z bossem, gracz jest w pełni uzdrawiany i wybiera spośród 3 reliktów, które mają unikatowe i dosyć przydatne efekty kosztem posiadania jakiejś wady.
+                Walka odbywa się poprzez zagrywanie <span class="card">kart</span>. W każdej turze gracz otrzymuje określoną ilość punktów energii (domyślnie 3). Nad każdym przeciwnikiem ukazana jest ich <span class="event">intencja</span>, mowiąca co planują wykonać. <br>
+                Gracz oraz wrogowie mogą <span class="damage">atakować</span>, <span class="block">blokować</span> lub nakładać <span class="upgrade">pozytywne</span> jak i <span class="debuff">negatywne</span> efekty. <br>
+                Po każdej walce gracz otrzymuje <span class="gold">złoto</span>, wybór <span class="card">karty</span>, czasami <span class="potion">miskturę</span>, a jeśli był to <span class="elite">elitarny</span> przeciwnik wśród nagród pojawia się <span class="relic">relikt</span>. <br>
+                Po pokonaniu <span class="boss">bossa</span>, gracz jest w pełni <span class="health">uzdrawiany</span> i wybiera spośród 3 <span class="relic">reliktów</span>, które mają unikatowe i dosyć przydatne efekty kosztem posiadania jakiejś <span class="debuff">wady</span>.
                 <img src="Images/STS_combat.png" alt='Walka'>
             </div>
             <div id="Map">
                 <h1 style="text-decoration: underline;">Mapa</h1>
-                Po każdej walce gracz wybiera następne piętro. Każdy z symboli mówi co występuje na danym piętrze:
+                <p>Po każdej walce gracz wybiera następne piętro. Każdy z symboli mówi co występuje na danym piętrze:
                 <ul>
-                    <li>Unknown - przypadkowe zdarzenie, może także być jednym z innych symboli (Merchant, Treasure, Enemy).</li>
-                    <li>Merchant - sklep posiadający karty, relikty i mikstury. Pozwala także na usunięcie karty z talii (raz na sklep).</li>
-                    <li>Treasure - skrzynia zawierająca relikt.</li>
-                    <li>Rest - ognisko pozwalające ulepszyć kartę lub odzyskać część utraconego zdrowia.</li>
-                    <li>Enemy - zwykła walka.</li>
-                    <li>Elite - walka z silniejszym przeciwnikiem, oferujące lepsze nagrody.</li>
+                    <li><span class="event">Unknown</span> - przypadkowe zdarzenie, może także być jednym z innych symboli (<span class="shop">Merchant</span>, <span class="gold">Treasure</span>, <span class="damage">Enemy</span>).</li>
+                    <li><span class="shop">Merchant</span>- sklep posiadający <span class="card">karty</span>, <span class="relic">relikt</span> i <span class="potion">misktury</span>. Pozwala także na usunięcie jednej <span class="card">karty</span> z talii (raz na sklep).</li>
+                    <li><span class="gold">Treasure</span> - skrzynia zawierająca <span class="relic">relikt</span> oraz <span class="gold">złoto</span>.</li>
+                    <li><span class="health">Rest</span> - ognisko pozwalające <span class="upgrade">ulepszyć</span> kartę lub odzyskać część utraconego <span class="health">zdrowia</span>.</li>
+                    <li><span class="damage">Enemy</span> - zwykła walka.</li>
+                    <li><span class="elite">Elite</span> - walka z silniejszym przeciwnikiem, oferujące <span class="upgrade">lepsze</span> nagrody.</li>
                 </ul>
+                </p>
                 <img src="Images/STS_map.png" alt='Mapa'>
             </div>
             <div id="ascension">
                 <h1 style="text-decoration: underline;">Ascension</h1>
-                Po pierwszej wygranej jako dana postać, gracz odblokowuje system o nazwie "Ascension". Jest to stopniowe zwiększanie poziomu trudność poprzez coraz trudniejsze modyfikatory.
+                <p>Po pierwszej wygranej jako dana postać, gracz odblokowuje system o nazwie "<span style="font-weight: bold;">Ascension</span>". Jest to stopniowe zwiększanie poziomu trudności poprzez coraz to bardziej niebezpieczne modyfikatory. <br>
+                Każdy kolejny stopień jest odblokowywany poprzez wygranie na najwyższym obecnie dostępnym.</p>
                 <div id="levels">
                     <ol>
-                        <li>Większa ilość elitarnych przeciwników.</li>
-                        <li>Zwykli przeciwnicy zadają więcej obrażeń.</li>
-                        <li>Elitarni przeciwnicy zadają więcej obrażeń.</li>
-                        <li>Bossowie zadają więcej obrażeń.</li>
-                        <li>Po pokonaniu bossa, gracz jest leczony o mniejszą ilość zdrowia.</li>
-                        <li>Na początku wyprawy gracz zaczyna z zadanymi obrażeniami.</li>
-                        <li>Zwykli przeciwnicy mają więcej zdrowia.</li>
-                        <li>Elitarni przeciwnicy mają więcej zdrowia.</li>
-                        <li>Bossowie mają więcej zdrowia.</li>
-                        <li>Na początku wyprawy gracz otrzymuje poniższą klątwę. <img src="Images/Cards/Curse/Ascenders_Bane.webp" alt="Ascenders_Bane"></li>
+                        <li>Większa ilość <span class="elite">elitarnych</span> przeciwników.</li>
+                        <li>Zwykli przeciwnicy zadają więcej <span class="damage">obrażeń</span>.</li>
+                        <li><span class="elite">Elitarni</span> przeciwnicy zadają więcej <span class="damage">obrażeń</span>.</li>
+                        <li><span class="boss">Bossowie</span> zadają więcej <span class="damage">obrażeń</span>.</li>
+                        <li>Po pokonaniu <span class="boss">bossa</span>, gracz jest leczony o <span class="debuff">mniejszą</span> ilość <span class="health">zdrowia</span>.</li>
+                        <li>Na początku wyprawy gracz zaczyna z częściową <span class="debuff">utratą</span> <span class="health">zdrowia</span>.</li>
+                        <li>Zwykli przeciwnicy mają więcej <span class="health">zdrowia</span>.</li>
+                        <li><span class="elite">Elitarni</span> przeciwnicy mają więcej <span class="health">zdrowia</span>.</li>
+                        <li><span class="boss">Bossowie</span> mają więcej <span class="health">zdrowia</span>.</li>
+                        <li>Na początku wyprawy gracz otrzymuje poniższą <span class="curse">klątwę</span>. <img src="Images/Cards/Curse/Ascenders_Bane.webp" alt="Ascenders_Bane"></li>
                     </ol>
                     <ol start="11">
-                        <li>Gracz posiada o jedno miejsce mniej na przechowywanie mikstur.</li>
-                        <li>Mniejsza szansa, że znalezione karty będą już ulepszone.</li>
-                        <li>Bossowie dają mniejszą ilość złota.</li>
-                        <li>Gracz posiada mniej zdrowia.</li>
-                        <li>Przypadkowe wydarzenia są mniej fortunne dla gracza.</li>
-                        <li>Sklepy są bardziej kosztowne.</li>
-                        <li>Zwykli przeciwnicy otrzymują bardziej wymagający zestaw ruchów.</li>
-                        <li>Elitarni przeciwnicy otrzymują bardziej wymagający zestaw ruchów.</li>
-                        <li>Bossowie otrzymują bardziej wymagający zestaw ruchów.</li>
-                        <li>Po pokonaniu bossa w akcie 3, natychmiast następuje walka z jednym z pozostałych bossów.</li>
+                        <li>Gracz posiada o jedno miejsce <span class="debuff">mniej</span> na przechowywanie <span class="potion">mikstur</span>.</li>
+                        <li><span class="debuff">Mniejsza</span> szansa, że znalezione karty będą już <span class="upgrade">ulepszone</span>.</li>
+                        <li><span class="boss">Bossowie</span> dają <span class="debuff">mniejszą</span> ilość <span class="gold">złota</span>.</li>
+                        <li>Gracz posiada <span class="debuff">mniej</span> maksymalnego <span class="health">zdrowia</span>.</li>
+                        <li><span class="event">Przypadkowe zdarzenia</span> są <span class="debuff">mniej</span> fortunne dla gracza.</li>
+                        <li><span class="shop">Sklepy</span> są bardziej <span class="gold">kosztowne</span>.</li>
+                        <li>Zwykli przeciwnicy otrzymują <span class="debuff">bardziej wymagający</span> zestaw ruchów.</li>
+                        <li><span class="elite">Elitarni</span> przeciwnicy otrzymują <span class="debuff">bardziej wymagający</span> zestaw ruchów.</li>
+                        <li><span class="boss">Bossowie</span> otrzymują <span class="debuff">bardziej wymagający</span> zestaw ruchów.</li>
+                        <li>Po pokonaniu <span class="boss">bossa</span> w akcie 3, natychmiast następuje walka z jednym z pozostałych <span class="boss">bossów</span>.</li>
                     </ol>
                 </div>
             </div>

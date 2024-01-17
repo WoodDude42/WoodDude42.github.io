@@ -27,10 +27,10 @@ a {
 
 #main {
     width: 90%;
-    height: 80vh;
+    min-height: 80vh;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border: 3px solid black;
     position: relative;
 }
@@ -40,7 +40,7 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    position: relative;
+    position: fixed;
     text-align: center;
     margin-top: auto;
     color: #D0D0D0;
@@ -104,6 +104,64 @@ ul, ol {
     border: 3px solid black;
     
 }
+
+.damage {
+    color: red;
+}
+
+.health {
+    color: #33CC33;
+}
+
+.block {
+    color: darkcyan;
+}
+
+.debuff {
+    color: darkred;
+}
+
+.curse {
+    color: black;
+}
+
+.potion {
+    color: lightgray;
+}
+
+.upgrade {
+    color: #008800;
+}
+
+.gold {
+    font-style: italic;
+    color: darkgoldenrod;
+}
+
+.relic {
+    color: #FF3000;
+}
+
+.card {
+    color: burlywood;
+}
+
+.event {
+    color: orchid;
+}
+
+.shop {
+    color: lightskyblue;
+}
+
+.elite {
+    font-weight: bold;
+}
+
+.boss {
+    font-weight: bold;
+    text-decoration: underline;
+} 
 
 #STS {
     background-image: linear-gradient(#666666, #444444);

@@ -27,9 +27,10 @@ a {
 
 #main {
     width: 90%;
-    height: 80vh;
+    min-height: 80vh;
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 50px;
     border: 3px solid black;
     position: relative;
 }
@@ -39,16 +40,11 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    position: relative;
+    position: fixed;
     text-align: center;
     margin-top: auto;
     color: #D0D0D0;
     border: 3px solid black;
-}
-
-#Roguelike, #Deckbuilder {
-    width: 50%;
-    float: left;
 }
 
 img {
@@ -56,7 +52,7 @@ img {
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    border: 3px solid black;
+    border: 4px solid black;
 }
 
 h2 {
