@@ -41,7 +41,7 @@
     <div id="main" style="height: 400vh;" class="theme">
             <div id="cel">
                 <h1 style="text-decoration: underline;">Cel</h1>
-                Celem gry jest przejście 3 aktów złożonych łącznie z 50 pięter. Każdy akt zakończony jednym z trzech potężnych przeciwników. <br>
+                Celem gry jest przejście 3 aktów złożonych łącznie z 50 pięter. Każdy akt zakończony jednym z trzech potężnych przeciwników zwanych bossami. <br>
                 <h2>Act 1</h2>
                 <div id="act1">
                     <figure>
@@ -88,7 +88,7 @@
                     </figure>
                 </div>
                 <br>
-                Jeśli gracz zbierze 3 części klucza, odblokowuje on dostęp do aktu 4 i walkę z najtrudniejszym wrogiem w grze.
+                Jeśli gracz zbierze 3 części klucza, odblokowuje on dostęp do aktu 4 i walkę z finałowym bossem, najtrudniejszym wrogiem w grze.
                 <h2>Act 4</h2>
                 <div id="act4">
                     <figure>
@@ -99,18 +99,54 @@
             </div>
             <div id="Combat">
                 <h1 style="text-decoration: underline;">Walka</h1>
-                Nazwa odnosi się do gier podobnych do "Rogue", która wyróżniała się przypadkowo generowanymi poziomami oraz permanentą śmiercią bohatera zmuszająca gracza do rozpoczęcia gry od zera.
+                Walka odbywa się poprzez zagrywanie kart. W każdej turze gracz otrzymuje określoną ilość punktów energii (domyślnie 3). Nad każdym przeciwnikiem ukazana jest ich intencja, mowiąca co planują wykonać. <br>
+                Gracz oraz wrogowie mogą atakować, blokować lub nakładać pozytywne jak i negatywne efekty. <br>
+                Po każdej walce gracz otrzymuje złoto, wybór karty, czasami miksturę, a jeśli był to elitarny przeciwnik wśród nagród pojawia się relikt. <br>
+                Po walce z bossem, gracz jest w pełni uzdrawiany i wybiera spośród 3 reliktów, które mają unikatowe i dosyć przydatne efekty kosztem posiadania jakiejś wady.
                 <img src="Images/STS_combat.png" alt='Walka'>
             </div>
             <div id="Map">
                 <h1 style="text-decoration: underline;">Mapa</h1>
-                Gatunek ten dotyczy gier zawierających karty, w których gracz buduje własną talię poprzez zdoybywanie nowych lub modyfikowanie starych kart.
-                Pierwszą taką grą było "Dominion" i miała ona znaczny wpływ na gry, które po niej nastąpiły.
+                Po każdej walce gracz wybiera następne piętro. Każdy z symboli mówi co występuje na danym piętrze:
+                <ul>
+                    <li>Unknown - przypadkowe zdarzenie, może także być jednym z innych symboli (Merchant, Treasure, Enemy).</li>
+                    <li>Merchant - sklep posiadający karty, relikty i mikstury. Pozwala także na usunięcie karty z talii (raz na sklep).</li>
+                    <li>Treasure - skrzynia zawierająca relikt.</li>
+                    <li>Rest - ognisko pozwalające ulepszyć kartę lub odzyskać część utraconego zdrowia.</li>
+                    <li>Enemy - zwykła walka.</li>
+                    <li>Elite - walka z silniejszym przeciwnikiem, oferujące lepsze nagrody.</li>
+                </ul>
                 <img src="Images/STS_map.png" alt='Mapa'>
             </div>
             <div id="ascension">
                 <h1 style="text-decoration: underline;">Ascension</h1>
-                Celem gry jest przejście 50
+                Po pierwszej wygranej jako dana postać, gracz odblokowuje system o nazwie "Ascension". Jest to stopniowe zwiększanie poziomu trudność poprzez coraz trudniejsze modyfikatory.
+                <div id="levels">
+                    <ol>
+                        <li>Większa ilość elitarnych przeciwników.</li>
+                        <li>Zwykli przeciwnicy zadają więcej obrażeń.</li>
+                        <li>Elitarni przeciwnicy zadają więcej obrażeń.</li>
+                        <li>Bossowie zadają więcej obrażeń.</li>
+                        <li>Po pokonaniu bossa, gracz jest leczony o mniejszą ilość zdrowia.</li>
+                        <li>Na początku wyprawy gracz zaczyna z zadanymi obrażeniami.</li>
+                        <li>Zwykli przeciwnicy mają więcej zdrowia.</li>
+                        <li>Elitarni przeciwnicy mają więcej zdrowia.</li>
+                        <li>Bossowie mają więcej zdrowia.</li>
+                        <li>Na początku wyprawy gracz otrzymuje poniższą klątwę. <img src="Images/Cards/Curse/Ascenders_Bane.webp" alt="Ascenders_Bane"></li>
+                    </ol>
+                    <ol start="11">
+                        <li>Gracz posiada o jedno miejsce mniej na przechowywanie mikstur.</li>
+                        <li>Mniejsza szansa, że znalezione karty będą już ulepszone.</li>
+                        <li>Bossowie dają mniejszą ilość złota.</li>
+                        <li>Gracz posiada mniej zdrowia.</li>
+                        <li>Przypadkowe wydarzenia są mniej fortunne dla gracza.</li>
+                        <li>Sklepy są bardziej kosztowne.</li>
+                        <li>Zwykli przeciwnicy otrzymują bardziej wymagający zestaw ruchów.</li>
+                        <li>Elitarni przeciwnicy otrzymują bardziej wymagający zestaw ruchów.</li>
+                        <li>Bossowie otrzymują bardziej wymagający zestaw ruchów.</li>
+                        <li>Po pokonaniu bossa w akcie 3, natychmiast następuje walka z jednym z pozostałych bossów.</li>
+                    </ol>
+                </div>
             </div>
     </div>
     <div id="footer">

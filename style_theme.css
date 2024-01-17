@@ -74,10 +74,22 @@ figure {
     display: block;
     margin: 0 auto;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 h2 {
     font-family: 'Segoe UI';
+}
+
+ul, ol {
+    display: inline-block;
+    text-align: left;
+}
+
+#levels {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
 
 .theme {
