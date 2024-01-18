@@ -47,12 +47,31 @@ a {
     border: 3px solid black;
 }
 
+#karty {
+    width: 155px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+}
+
+#karty #karta_plus {
+    position: absolute;
+    display: none;
+}
+
+#karty:hover #karta_plus {
+    display: block;
+}
+
+.character {
+    margin-top: 20px;
+    border: 3px solid black;
+}
+
 img {
     display: block;
     margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 4px solid black;
 }
 
 h2 {

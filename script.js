@@ -18,7 +18,17 @@ var curse = ["Images/Cards/Curse/Ascenders_Bane.webp", "Images/Cards/Curse/Clums
 var status = ["Images/Cards/Status/Burn.webp", "Images/Cards/Status/Dazed.webp", "Images/Cards/Status/Slimed.webp", "Images/Cards/Status/Void.webp", "Images/Cards/Status/Wound.webp"];
 var colorless = ["Images/Cards/Colorless/Apotheosis.webp", "Images/Cards/Colorless/Apparition.webp", "Images/Cards/Colorless/BandageUp.webp", "Images/Cards/Colorless/Bite.webp", "Images/Cards/Colorless/Blind.webp", "Images/Cards/Colorless/Chrysalis.webp", "Images/Cards/Colorless/DarkShackles.webp", "Images/Cards/Colorless/DeepBreath.webp", "Images/Cards/Colorless/Discovery.webp", "Images/Cards/Colorless/DramaticEntrance.webp", "Images/Cards/Colorless/Enlightenment.webp", "Images/Cards/Colorless/Finesse.webp", "Images/Cards/Colorless/FlashofSteel.webp", "Images/Cards/Colorless/Forethought.webp", "Images/Cards/Colorless/GoodInstincts.webp", "Images/Cards/Colorless/HandOfGreed.webp", "Images/Cards/Colorless/Impatience.webp", "Images/Cards/Colorless/J.A.X..webp", "Images/Cards/Colorless/JackOfAllTrades.webp", "Images/Cards/Colorless/Madness.webp", "Images/Cards/Colorless/Magnetism.webp", "Images/Cards/Colorless/MasterOfStrategy.webp", "Images/Cards/Colorless/Mayhem.webp", "Images/Cards/Colorless/Metamorphosis.webp", "Images/Cards/Colorless/MindBlast.webp", "Images/Cards/Colorless/Panacea.webp", "Images/Cards/Colorless/Panache.webp", "Images/Cards/Colorless/PanicButton.webp", "Images/Cards/Colorless/Purity.webp", "Images/Cards/Colorless/RitualDagger.webp", "Images/Cards/Colorless/SadisticNature.webp", "Images/Cards/Colorless/SecretTechnique.webp", "Images/Cards/Colorless/SecretWeapon.webp", "Images/Cards/Colorless/SwiftStrike.webp", "Images/Cards/Colorless/TheBomb.webp", "Images/Cards/Colorless/ThinkingAhead.webp", "Images/Cards/Colorless/Transmutation.webp", "Images/Cards/Colorless/Trip.webp", "Images/Cards/Colorless/Violence.webp"];
 
-function losowanie() {
+function losowanie_common() {
     var liczba = Math.floor(Math.random() * (ironclad_common.length));
-    document.karta.src=""+ironclad_common[liczba];
+    document.common.src=""+ironclad_common[liczba];
+}
+
+function losowanie_uncommon() {
+    var liczba = Math.floor(Math.random() * (ironclad_uncommon.length));
+    document.uncommon.src=""+ironclad_uncommon[liczba];
+}
+
+function losowanie_rare() {
+    var liczba = Math.floor(Math.random() * (ironclad_rare.length));
+    document.rare.src=""+ironclad_rare[liczba];
 }
