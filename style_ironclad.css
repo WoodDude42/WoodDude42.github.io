@@ -58,23 +58,6 @@ a {
     border: 3px solid black;
 }
 
-.karty {
-    width: 155px;
-    height: 200px;
-    margin: 0 auto;
-    margin-top: 20px;
-    display: flex;
-}
-
-.karty .karta_plus {
-    position: absolute;
-    display: none;
-}
-
-.karty:hover .karta_plus {
-    display: block;
-}
-
 .character {
     margin-top: 20px;
     border: 3px solid black;
@@ -83,10 +66,8 @@ a {
 img {
     display: block;
     margin: 0 auto;
-}
-
-input {
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -95,7 +76,6 @@ h2 {
 
 .theme {
     background-image: linear-gradient(#FFB300, #B22222);
-    color: black;
     text-align: center;
     margin-bottom: 10px;
     margin-left: 2px;

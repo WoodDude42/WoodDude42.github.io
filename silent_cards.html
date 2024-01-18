@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slay The Spire - Projekt na studia</title>
-    <link rel="stylesheet" href="style_ironclad.css">
+    <link rel="stylesheet" href="style_silent.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div id="header">
@@ -12,7 +13,7 @@
             <a href="index.html">Slay The Spire</a>
         </div>
         <div id="Ironclad" class="theme">
-            <a href="ironclad.html" style="color: white;">Ironclad</a>
+            <a href="ironclad.html">Ironclad</a>
         </div>
         <div id="Silent" class="theme">
             <a href="silent.html">Silent</a>
@@ -26,24 +27,28 @@
     </div>
     <div id="bar">
         <div class="theme">
-            <a href="ironclad_cards.html">Przykładowe karty</a>
-        </div>
-        <div class="theme">
-           <a href="gameplay.html">Podstawowe mechaniki</a>
-        </div>
-        <div class="theme">
-           <a href="genesis.html">Geneza i rozwój</a>
-        </div>
-        <div class="theme" >
-           <a href="influence.html">Popularność i wpływ</a>
+            <a href="silent_cards.html" style="color: white;">Zbiór kart</a>
         </div>
     </div>
     <div id="main" class="theme">
-        <img src="Images/Ironclad_intro.png" alt="ironclad" class="character">
-            <h2><span style="font-weight: bolder;">Ironclad</span>
-            - Pierwsza dostępna postać, jej mocnymi stronami jest akumulowanie siły lub bloku, <br> jednocześnie usuwając niepotrzebne karty w trakcie bitwy.
-            Posiada dobrą wytrzymałość dzięki startowemu reliktowi.</h2>
-            
+        <div class="losowanie">
+            <div class="karta">
+                <img src="Images/back.png" alt="common" name="common">
+            </div>
+            <input type="button" value="Losuj zwyklą kartę" onClick="losowanie_common_silent()">
+        </div>
+        <div class="losowanie">
+            <div class="karta">
+                <img src="Images/back.png" alt="uncommon" name="uncommon">
+            </div>
+            <input type="button" value="Losuj niezwykłą kartę" onClick="losowanie_uncommon_silent()">
+        </div>
+        <div class="losowanie">
+            <div class="karta">
+                <img src="Images/back.png" alt="rare" name="rare">
+            </div>
+            <input type="button" value="Losuj rzadką kartę" onClick="losowanie_rare_silent()">
+        </div>
     </div>
     <div id="footer">
         Strona została stworzona jako projekt na studia. "Slay The Spire" należy do oryginalnych twórców (MegaCrit).

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slay The Spire - Projekt na studia</title>
     <link rel="stylesheet" href="style_theme.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div id="header">
@@ -39,7 +40,7 @@
         </div>
     </div>
     <div id="main" class="theme">
-            <div id="cel">
+            <div id="Goal">
                 <h1 style="text-decoration: underline;">Cel</h1>
                 <p>Celem gry jest przejście 3 aktów złożonych łącznie z 50 pięter. Każdy akt zakończony jednym z trzech potężnych przeciwników zwanych bossami.</p> <br>
                 <h2>Act 1</h2>
@@ -124,7 +125,25 @@
                 </p>
                 <img src="Images/STS_map.png" alt='Mapa'>
             </div>
-            <div id="ascension">
+            <div id="Relic">
+                <h1 style="text-decoration: underline;">Relikty</h1>
+                <p>Relikty są to rzeczy w większości dające pasywne efekty w trakcie podróży przez iglicę. W niektórych przypadkach ich działanie jest natychmiastowe lub tylko tymczasowe.</p>
+                <img src="Images/starterrelics.png" alt="starterrelics">
+                <img src="Images/commonrelics.png" alt="commonrelics">
+                <img src="Images/uncommonrelics.png" alt="uncommonrelics">
+                <img src="Images/rarerelics.png" alt="rarerelics">
+                <img src="Images/bossrelics.png" alt="bossrelics">
+                <img src="Images/shoprelics.png" alt="shoprelics">
+                <img src="Images/eventrelics.png" alt="eventrelics">
+            </div>
+            <div id="Potion">
+                <h1 style="text-decoration: underline;">Mikstury</h1>
+                <p>Mikstury to przedmioty jednorazowego użytku używane w walce, gracz ma ich limitowaną pojemność (domyślnie 3).</p>
+                <img src="Images/potionscommon.png" alt="potionscommon">
+                <img src="Images/potionsuncommon.png" alt="potionsuncommon">
+                <img src="Images/potionsrare.png" alt="potionsrare">
+            </div>
+            <div id="Ascension">
                 <h1 style="text-decoration: underline;">Ascension</h1>
                 <p>Po pierwszej wygranej jako dana postać, gracz odblokowuje system o nazwie "<span style="font-weight: bold;">Ascension</span>". Jest to stopniowe zwiększanie poziomu trudności poprzez coraz to bardziej niebezpieczne modyfikatory. <br>
                 Każdy kolejny stopień jest odblokowywany poprzez wygranie na najwyższym obecnie dostępnym.</p>
@@ -153,6 +172,28 @@
                         <li><span class="boss">Bossowie</span> otrzymują <span class="debuff">bardziej wymagający</span> zestaw ruchów.</li>
                         <li>Po pokonaniu <span class="boss">bossa</span> w akcie 3, natychmiast następuje walka z jednym z pozostałych <span class="boss">bossów</span>.</li>
                     </ol>
+                </div>
+            </div>
+            <h1 style="text-decoration: underline;">Pozostałe karty</h1>
+            <p>Tutaj znajdują się karty, które nie mają przynależności do żadnej postaci.</p>
+            <div id="other">
+                <div class="losowanie">
+                    <div class="karta">
+                        <img src="Images/back.png" alt="colorless" name="colorless">
+                    </div>
+                    <input type="button" value="Karta bezkolorowa" onClick="losowanie_colorless()">
+                </div>
+                <div class="losowanie">
+                    <div class="karta">
+                        <img src="Images/back.png" alt="status" name="status">
+                    </div>
+                    <input type="button" value="Karta statusu" onClick="losowanie_status()">
+                </div>
+                <div class="losowanie">
+                    <div class="karta">
+                        <img src="Images/back.png" alt="curse" name="curse">
+                    </div>
+                    <input type="button" value="Karta klątwy" onClick="losowanie_curse()">
                 </div>
             </div>
     </div>

@@ -1,5 +1,5 @@
 var ironclad_common = ["Images/Cards/Ironclad/Common/Anger.webp",  "Images/Cards/Ironclad/Common/Armaments.webp",  "Images/Cards/Ironclad/Common/Bash.webp",  "Images/Cards/Ironclad/Common/BodySlam.webp",  "Images/Cards/Ironclad/Common/Clash.webp",  "Images/Cards/Ironclad/Common/Cleave.webp",  "Images/Cards/Ironclad/Common/Clothesline.webp",  "Images/Cards/Ironclad/Common/Defend_R.webp",  "Images/Cards/Ironclad/Common/Flex.webp",  "Images/Cards/Ironclad/Common/Havoc.webp",  "Images/Cards/Ironclad/Common/Headbutt.webp",  "Images/Cards/Ironclad/Common/HeavyBlade.webp",  "Images/Cards/Ironclad/Common/IronWave.webp",  "Images/Cards/Ironclad/Common/PerfectedStrike.webp",  "Images/Cards/Ironclad/Common/PommelStrike.webp",  "Images/Cards/Ironclad/Common/ShrugItOff.webp",  "Images/Cards/Ironclad/Common/Strike_R.webp",  "Images/Cards/Ironclad/Common/SwordBoomerang.webp",  "Images/Cards/Ironclad/Common/Thunderclap.webp",  "Images/Cards/Ironclad/Common/TrueGrit.webp",  "Images/Cards/Ironclad/Common/TwinStrike.webp",  "Images/Cards/Ironclad/Common/Warcry.webp",  "Images/Cards/Ironclad/Common/WildStrike.webp"];
-var ironclad_uncommon = ["Images/Cards/Ironclad/Uncommon/BattleTrance.webp", "Images/Cards/Ironclad/Uncommon/BloodforBloodwebp.webp", "Images/Cards/Ironclad/Uncommon/Bloodletting.webp", "Images/Cards/Ironclad/Uncommon/BurningPact.webp", "Images/Cards/Ironclad/Uncommon/Carnage.webp", "Images/Cards/Ironclad/Uncommon/Combust.webp", "Images/Cards/Ironclad/Uncommon/DarkEmbrace.webp", "Images/Cards/Ironclad/Uncommon/Disarm.webp", "Images/Cards/Ironclad/Uncommon/Dropkick.webp", "Images/Cards/Ironclad/Uncommon/DualWield.webp", "Images/Cards/Ironclad/Uncommon/Entrench.webp", "Images/Cards/Ironclad/Uncommon/Evolve.webp", "Images/Cards/Ironclad/Uncommon/FeelNoPain.webp", "Images/Cards/Ironclad/Uncommon/FireBreathing.webp", "Images/Cards/Ironclad/Uncommon/FlameBarrier.webp", "Images/Cards/Ironclad/Uncommon/GhostlyArmor.webp", "Images/Cards/Ironclad/Uncommon/Hemokinesis.webp", "Images/Cards/Ironclad/Uncommon/InfernalBlade.webp", "Images/Cards/Ironclad/Uncommon/Inflame.webp", "Images/Cards/Ironclad/Uncommon/Intimidate.webp", "Images/Cards/Ironclad/Uncommon/Metallicize.webp", "Images/Cards/Ironclad/Uncommon/PowerThrough.webp", "Images/Cards/Ironclad/Uncommon/Pummel.webp", "Images/Cards/Ironclad/Uncommon/Rage.webp", "Images/Cards/Ironclad/Uncommon/Rampage.webp", "Images/Cards/Ironclad/Uncommon/RecklessCharge.webp", "Images/Cards/Ironclad/Uncommon/Rupture.webp", "Images/Cards/Ironclad/Uncommon/SearingBlow.webp", "Images/Cards/Ironclad/Uncommon/SecondWind.webp", "Images/Cards/Ironclad/Uncommon/SeeingRed.webp", "Images/Cards/Ironclad/Uncommon/Sentinel.webp", "Images/Cards/Ironclad/Uncommon/SeverSoul.webp", "Images/Cards/Ironclad/Uncommon/Shockwave.webp", "Images/Cards/Ironclad/Uncommon/SpotWeakness.webp", "Images/Cards/Ironclad/Uncommon/Uppercut.webp", "Images/Cards/Ironclad/Uncommon/Whirlwind.webp"];
+var ironclad_uncommon = ["Images/Cards/Ironclad/Uncommon/BattleTrance.webp", "Images/Cards/Ironclad/Uncommon/BloodforBlood.webp", "Images/Cards/Ironclad/Uncommon/Bloodletting.webp", "Images/Cards/Ironclad/Uncommon/BurningPact.webp", "Images/Cards/Ironclad/Uncommon/Carnage.webp", "Images/Cards/Ironclad/Uncommon/Combust.webp", "Images/Cards/Ironclad/Uncommon/DarkEmbrace.webp", "Images/Cards/Ironclad/Uncommon/Disarm.webp", "Images/Cards/Ironclad/Uncommon/Dropkick.webp", "Images/Cards/Ironclad/Uncommon/DualWield.webp", "Images/Cards/Ironclad/Uncommon/Entrench.webp", "Images/Cards/Ironclad/Uncommon/Evolve.webp", "Images/Cards/Ironclad/Uncommon/FeelNoPain.webp", "Images/Cards/Ironclad/Uncommon/FireBreathing.webp", "Images/Cards/Ironclad/Uncommon/FlameBarrier.webp", "Images/Cards/Ironclad/Uncommon/GhostlyArmor.webp", "Images/Cards/Ironclad/Uncommon/Hemokinesis.webp", "Images/Cards/Ironclad/Uncommon/InfernalBlade.webp", "Images/Cards/Ironclad/Uncommon/Inflame.webp", "Images/Cards/Ironclad/Uncommon/Intimidate.webp", "Images/Cards/Ironclad/Uncommon/Metallicize.webp", "Images/Cards/Ironclad/Uncommon/PowerThrough.webp", "Images/Cards/Ironclad/Uncommon/Pummel.webp", "Images/Cards/Ironclad/Uncommon/Rage.webp", "Images/Cards/Ironclad/Uncommon/Rampage.webp", "Images/Cards/Ironclad/Uncommon/RecklessCharge.webp", "Images/Cards/Ironclad/Uncommon/Rupture.webp", "Images/Cards/Ironclad/Uncommon/SearingBlow.webp", "Images/Cards/Ironclad/Uncommon/SecondWind.webp", "Images/Cards/Ironclad/Uncommon/SeeingRed.webp", "Images/Cards/Ironclad/Uncommon/Sentinel.webp", "Images/Cards/Ironclad/Uncommon/SeverSoul.webp", "Images/Cards/Ironclad/Uncommon/Shockwave.webp", "Images/Cards/Ironclad/Uncommon/SpotWeakness.webp", "Images/Cards/Ironclad/Uncommon/Uppercut.webp", "Images/Cards/Ironclad/Uncommon/Whirlwind.webp"];
 var ironclad_rare = ["Images/Cards/Ironclad/Rare/Barricade.webp", "Images/Cards/Ironclad/Rare/Berserk.webp", "Images/Cards/Ironclad/Rare/Bludgeon.webp", "Images/Cards/Ironclad/Rare/Brutality.webp", "Images/Cards/Ironclad/Rare/Corruption.webp", "Images/Cards/Ironclad/Rare/DemonForm.webp", "Images/Cards/Ironclad/Rare/DoubleTap.webp", "Images/Cards/Ironclad/Rare/Exhume.webp", "Images/Cards/Ironclad/Rare/Feed.webp", "Images/Cards/Ironclad/Rare/FiendFire.webp", "Images/Cards/Ironclad/Rare/Immolate.webp", "Images/Cards/Ironclad/Rare/Impervious.webp", "Images/Cards/Ironclad/Rare/Juggernaut.webp", "Images/Cards/Ironclad/Rare/LimitBreak.webp", "Images/Cards/Ironclad/Rare/Offering.webp", "Images/Cards/Ironclad/Rare/Reaper.webp"];
 
 var silent_common = ["Images/Cards/Silent/Common/Acrobatics.webp", "Images/Cards/Silent/Common/Backflip.webp", "Images/Cards/Silent/Common/Bane.webp", "Images/Cards/Silent/Common/BladeDance.webp", "Images/Cards/Silent/Common/CloakAndDagger.webp", "Images/Cards/Silent/Common/DaggerSpray.webp", "Images/Cards/Silent/Common/DeadlyPoison.webp", "Images/Cards/Silent/Common/Defend_G.webp", "Images/Cards/Silent/Common/Deflect.webp", "Images/Cards/Silent/Common/DodgeandRoll.webp", "Images/Cards/Silent/Common/FlyingKnee.webp", "Images/Cards/Silent/Common/Neutralize.webp", "Images/Cards/Silent/Common/Outmaneuver.webp", "Images/Cards/Silent/Common/PiercingWail.webp", "Images/Cards/Silent/Common/PoisonedStab.webp", "Images/Cards/Silent/Common/Prepared.webp", "Images/Cards/Silent/Common/QuickSlash.webp", "Images/Cards/Silent/Common/R_dagger-throw.webp", "Images/Cards/Silent/Common/Shiv.webp", "Images/Cards/Silent/Common/Slice.webp", "Images/Cards/Silent/Common/SneakyStrike.webp", "Images/Cards/Silent/Common/Strike_G.webp", "Images/Cards/Silent/Common/SuckerPunch.webp", "Images/Cards/Silent/Common/Survivor.webp"];
@@ -15,20 +15,81 @@ var watcher_uncommon = ["Images/Cards/Watcher/Uncommon/BattleHymn.webp", "Images
 var watcher_rare = ["Images/Cards/Watcher/Rare/Alpha.webp", "Images/Cards/Watcher/Rare/Beta.webp", "Images/Cards/Watcher/Rare/Blasphemy.webp", "Images/Cards/Watcher/Rare/Brilliance.webp", "Images/Cards/Watcher/Rare/ConjureBlade.webp", "Images/Cards/Watcher/Rare/DeusExMachina.webp", "Images/Cards/Watcher/Rare/DevaForm.webp", "Images/Cards/Watcher/Rare/Devotion.webp", "Images/Cards/Watcher/Rare/Establishment.webp", "Images/Cards/Watcher/Rare/Expunger.webp", "Images/Cards/Watcher/Rare/Judgment.webp", "Images/Cards/Watcher/Rare/LessonLearned.webp", "Images/Cards/Watcher/Rare/MasterReality.webp", "Images/Cards/Watcher/Rare/Omega.webp", "Images/Cards/Watcher/Rare/Omniscience.webp", "Images/Cards/Watcher/Rare/Ragnarok.webp", "Images/Cards/Watcher/Rare/Scrawl.webp", "Images/Cards/Watcher/Rare/SpiritShield.webp", "Images/Cards/Watcher/Rare/Vault.webp", "Images/Cards/Watcher/Rare/Wish.webp"];
 
 var curse = ["Images/Cards/Curse/Ascenders_Bane.webp", "Images/Cards/Curse/Clumsy.webp", "Images/Cards/Curse/CurseoftheBell.webp", "Images/Cards/Curse/Decay.webp", "Images/Cards/Curse/Doubt.webp", "Images/Cards/Curse/Injury.webp", "Images/Cards/Curse/Necronomicurse.webp", "Images/Cards/Curse/Normality.webp", "Images/Cards/Curse/Pain.webp", "Images/Cards/Curse/Parasite.webp", "Images/Cards/Curse/Pride.webp", "Images/Cards/Curse/Regret.webp", "Images/Cards/Curse/Shame.webp", "Images/Cards/Curse/Writhe.webp"];
-var status = ["Images/Cards/Status/Burn.webp", "Images/Cards/Status/Dazed.webp", "Images/Cards/Status/Slimed.webp", "Images/Cards/Status/Void.webp", "Images/Cards/Status/Wound.webp"];
+var status_effect = ["Images/Cards/Status/Burn.webp", "Images/Cards/Status/Dazed.webp", "Images/Cards/Status/Slimed.webp", "Images/Cards/Status/Void.webp", "Images/Cards/Status/Wound.webp"];
 var colorless = ["Images/Cards/Colorless/Apotheosis.webp", "Images/Cards/Colorless/Apparition.webp", "Images/Cards/Colorless/BandageUp.webp", "Images/Cards/Colorless/Bite.webp", "Images/Cards/Colorless/Blind.webp", "Images/Cards/Colorless/Chrysalis.webp", "Images/Cards/Colorless/DarkShackles.webp", "Images/Cards/Colorless/DeepBreath.webp", "Images/Cards/Colorless/Discovery.webp", "Images/Cards/Colorless/DramaticEntrance.webp", "Images/Cards/Colorless/Enlightenment.webp", "Images/Cards/Colorless/Finesse.webp", "Images/Cards/Colorless/FlashofSteel.webp", "Images/Cards/Colorless/Forethought.webp", "Images/Cards/Colorless/GoodInstincts.webp", "Images/Cards/Colorless/HandOfGreed.webp", "Images/Cards/Colorless/Impatience.webp", "Images/Cards/Colorless/J.A.X..webp", "Images/Cards/Colorless/JackOfAllTrades.webp", "Images/Cards/Colorless/Madness.webp", "Images/Cards/Colorless/Magnetism.webp", "Images/Cards/Colorless/MasterOfStrategy.webp", "Images/Cards/Colorless/Mayhem.webp", "Images/Cards/Colorless/Metamorphosis.webp", "Images/Cards/Colorless/MindBlast.webp", "Images/Cards/Colorless/Panacea.webp", "Images/Cards/Colorless/Panache.webp", "Images/Cards/Colorless/PanicButton.webp", "Images/Cards/Colorless/Purity.webp", "Images/Cards/Colorless/RitualDagger.webp", "Images/Cards/Colorless/SadisticNature.webp", "Images/Cards/Colorless/SecretTechnique.webp", "Images/Cards/Colorless/SecretWeapon.webp", "Images/Cards/Colorless/SwiftStrike.webp", "Images/Cards/Colorless/TheBomb.webp", "Images/Cards/Colorless/ThinkingAhead.webp", "Images/Cards/Colorless/Transmutation.webp", "Images/Cards/Colorless/Trip.webp", "Images/Cards/Colorless/Violence.webp"];
 
-function losowanie_common() {
+function losowanie_common_ironclad() {
     var liczba = Math.floor(Math.random() * (ironclad_common.length));
     document.common.src=""+ironclad_common[liczba];
 }
 
-function losowanie_uncommon() {
+function losowanie_uncommon_ironclad() {
     var liczba = Math.floor(Math.random() * (ironclad_uncommon.length));
     document.uncommon.src=""+ironclad_uncommon[liczba];
 }
 
-function losowanie_rare() {
+function losowanie_rare_ironclad() {
     var liczba = Math.floor(Math.random() * (ironclad_rare.length));
     document.rare.src=""+ironclad_rare[liczba];
+}
+
+function losowanie_common_silent() {
+    var liczba = Math.floor(Math.random() * (silent_common.length));
+    document.common.src=""+silent_common[liczba];
+}
+
+function losowanie_uncommon_silent() {
+    var liczba = Math.floor(Math.random() * (silent_uncommon.length));
+    document.uncommon.src=""+silent_uncommon[liczba];
+}
+
+function losowanie_rare_silent() {
+    var liczba = Math.floor(Math.random() * (silent_rare.length));
+    document.rare.src=""+silent_rare[liczba];
+}
+
+function losowanie_common_defect() {
+    var liczba = Math.floor(Math.random() * (defect_common.length));
+    document.common.src=""+defect_common[liczba];
+}
+
+function losowanie_uncommon_defect() {
+    var liczba = Math.floor(Math.random() * (defect_uncommon.length));
+    document.uncommon.src=""+defect_uncommon[liczba];
+}
+
+function losowanie_rare_defect() {
+    var liczba = Math.floor(Math.random() * (defect_rare.length));
+    document.rare.src=""+defect_rare[liczba];
+}
+
+
+function losowanie_common_watcher() {
+    var liczba = Math.floor(Math.random() * (watcher_common.length));
+    document.common.src=""+watcher_common[liczba];
+}
+
+function losowanie_uncommon_watcher() {
+    var liczba = Math.floor(Math.random() * (watcher_uncommon.length));
+    document.uncommon.src=""+watcher_uncommon[liczba];
+}
+
+function losowanie_rare_watcher() {
+    var liczba = Math.floor(Math.random() * (watcher_rare.length));
+    document.rare.src=""+watcher_rare[liczba];
+}
+
+function losowanie_colorless() {
+    var liczba = Math.floor(Math.random() * (colorless.length));
+    document.colorless.src=""+colorless[liczba];
+}
+
+function losowanie_status() {
+    var liczba = Math.floor(Math.random() * (status_effect.length));
+    document.status.src=""+status_effect[liczba];
+}
+
+function losowanie_curse() {
+    var liczba = Math.floor(Math.random() * (status_effect.length));
+    document.curse.src=""+curse[liczba];
 }

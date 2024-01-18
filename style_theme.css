@@ -68,6 +68,21 @@ a {
     width: 200px;
 }
 
+#other {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+}
+
+#other img {
+    border: none;
+}
+
+input {
+    margin-top: 30px;
+}
+
 img {
     display: block;
     margin: 0 auto;
